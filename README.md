@@ -26,8 +26,8 @@ The about page url is "url"/about/, you only need to create a static page and co
 ####On header buttons:
 - Find default.hbs
 - Change this section with your social accounts links and buttons
-```
-<ul class="social">
+
+```<ul class="social">
 		<li><a href="https://www.facebook.com/richard.armuelles" target="_blank"><img src="{{asset "images/facebook.png"}}" width="48" /></a></li>
         <li><a href="https://twitter.com/raaztux" target="_blank"><img src="{{asset "images/twitter.png"}}" width="48" /></a></li>
         <li><a href="https://plus.google.com/u/0/117702515713402194890" target="_blank"><img src="{{asset "images/google.png"}}" width="48" /></a></li>
@@ -35,12 +35,11 @@ The about page url is "url"/about/, you only need to create a static page and co
         <li><a href="https://github.com/kurai021" target="_blank"><img src="{{asset "images/github.png"}}" width="48" /></a></li>
 </ul>```
 
-
 ####On share buttons
 - Find post.hbs
 - Change this section with your favourite buttons, don't forget to use target="_blank" on "a" tag
-```
-<section class="share">
+
+```<section class="share">
 	<h4>Share this post</h4>
      <a target="_blank" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}">
         <img src="{{asset "images/rounded-twitter.png"}}">
@@ -58,8 +57,9 @@ You need to use the ```<pre>code</pre>``` method as explained on (some scripts f
 
 ###¿Do you want to disable infinite scroll?
 You only need to comment this section on default.hbs:
-```<script type="text/javascript" src="{{asset "assets/jscroll/jquery.jscroll.js"}}"></script>```
-```<script type="text/javascript" src="{{asset "assets/jscroll/scroll-post.js"}}"></script>```
+
+```<script type="text/javascript" src="{{asset "assets/jscroll/jquery.jscroll.js"}}"></script>
+   <script type="text/javascript" src="{{asset "assets/jscroll/scroll-post.js"}}"></script>```
 
 ###¿How to setup your favicon?
 Copy your favicon with name "favicon.png" on assets folder
