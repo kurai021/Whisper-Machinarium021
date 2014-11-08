@@ -35,12 +35,13 @@ The about page url is "url"/about/, you only need to create a static page and co
         <li><a href="https://github.com/kurai021" target="_blank"><img src="{{asset "images/github.png"}}" width="48" /></a></li>
 </ul>```
 
+
 ####On share buttons
 - Find post.hbs
-- Change this section with your favourite buttons, don't forget to use target="_blank" on ```<a>``` tag
+- Change this section with your favourite buttons, don't forget to use target="_blank" on "a" tag
 ```
 <section class="share">
-     <h4>Share this post</h4>
+	<h4>Share this post</h4>
      <a target="_blank" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}">
         <img src="{{asset "images/rounded-twitter.png"}}">
      </a>
