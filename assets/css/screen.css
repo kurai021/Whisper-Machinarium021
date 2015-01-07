@@ -509,8 +509,8 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
     font-size: 1.8rem;
     line-height: 1.5em;
-    font-weight: 300;
-    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-family: 'Open Sans', serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
@@ -564,6 +564,13 @@ margin on the iframe, cause it breaks stuff. */
     margin: 1.6rem 0 0 0;
     font-size: 0.9em;
     line-height: 1.6em;
+}
+
+.featured-image p img{
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
 }
 
 .read-more {
@@ -1107,11 +1114,11 @@ margin on the iframe, cause it breaks stuff. */
     .inner {
       width:auto;
     }
-    
+
     .site-footer{
       padding: 0 0;
     }
-    
+
     .pagination {
         width: auto;
         margin-left: 16px;
@@ -1201,7 +1208,7 @@ margin on the iframe, cause it breaks stuff. */
         padding: 0 0 1.6rem 0;
         border-bottom: #FCC471 1px dashed;
     }
-    
+
     .post-footer .author h4{
       text-align: center !important;
     }
@@ -1235,7 +1242,7 @@ margin on the iframe, cause it breaks stuff. */
         margin-top: 6rem;
         font-size: 1.1rem;
     }
-    
+
     .error img {
 	width: 100%;
     }
@@ -1269,6 +1276,7 @@ ul.social li:last-child {
 .menu-separator {
     padding-right: 10px;
     padding-left: 10px;
+    color: #002154
 }
 
 .back-to-top {

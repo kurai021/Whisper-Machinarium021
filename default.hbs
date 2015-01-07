@@ -38,20 +38,20 @@
     <script type="text/javascript" src="{{asset "assets/syntaxhighlighter/scripts/shBrushJava.js"}}"></script>
     <script type="text/javascript" src="{{asset "assets/syntaxhighlighter/scripts/shBrushGroovy.js"}}"></script>
     <script type="text/javascript" src="{{asset "assets/syntaxhighlighter/scripts/shBrushScala.js"}}"></script>
-    
+
     <script type="text/javascript">SyntaxHighlighter.all();</script>
-    
+
 </head>
 <body>
 <a href="https://plus.google.com/+MazharAhmedPro?rel=author" style="display:none;" id="g-author">author</a>
     {{! Everything else gets inserted here }}
     {{{body}}}
-    
+
     {{! The footer on the homepage}}
     <footer class="site-footer" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
         <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Suscribete!</span></a>
         <div class="inner inner-footer">
-        
+
              <section class="copyright">
 	      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 		<img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
@@ -59,7 +59,7 @@
 	      <br />
 	      <a target="_blank" href="{{@blog.url}}/">{{@blog.title}}</a> está distribuido bajo una </section>
 	      <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
-             <section class="poweredby"><a href="https://github.com/kurai021" target="_blank">Whisper Machinarium021</a> theme for <a target="_blank" href="https://www.facebook.com/richard.armuelles">Richard Armuelles</a> under Apache License.</section>
+             <section class="poweredby"><a href="https://github.com/kurai021/Whisper-Machinarium021" target="_blank">Whisper Machinarium021</a> theme for <a target="_blank" href="https://www.facebook.com/richard.armuelles">Richard Armuelles</a> under Apache License.</section>
         </div>
         <a href="#" class="back-to-top"><img src="{{asset "images/arrow.png"}}" /></a>
     </footer>
@@ -70,11 +70,11 @@
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    
+
     {{! Infinite scroll for posts list}}
     <script type="text/javascript" src="{{asset "assets/jscroll/jquery.jscroll.js"}}"></script>
     <script type="text/javascript" src="{{asset "assets/jscroll/scroll-post.js"}}"></script>
-    
+
     {{! Back to top button}}
     <script type="text/javascript" src="{{asset "assets/back-to-top/back-to-top.js"}}"></script>
 
@@ -85,7 +85,7 @@
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];
         e.src='//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-48146313-1');ga('send','pageview');
+        ga('create','UA-58169260-1');ga('send','pageview');
     </script>
 </body>
 </html>
