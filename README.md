@@ -69,4 +69,4 @@ Login on Disqus and change "var disqus_shortname = 'mightymaze'" on post.hbs wit
 Change 'UA-48146313-1' on default.hbs with your Site ID
 
 ###Demo
-[Link]("http://blog-machinarium021.rhcloud.com")
+[Link](http://blog-machinarium021.rhcloud.com)
