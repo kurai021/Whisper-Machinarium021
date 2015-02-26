@@ -1104,6 +1104,44 @@ margin on the iframe, cause it breaks stuff. */
 
 }
 
+
+/* ==========================================================================
+* Linkwithin
+========================================================================== */
+
+
+#linkwithin_inner {
+  width: auto !important;
+}
+
+#linkwithin_logolink_0{
+  display: none !important;
+}
+
+/* ==========================================================================
+* Linkwithin - Smaller than 640px
+========================================================================== */
+
+
+@media only screen and (max-width: 640px){
+
+  #linkwithin_text_0 {
+    text-align: center !important;
+  }
+
+  #linkwithin_posts_0 {
+    width: 100%;
+  }
+
+  #linkwithin_posts_0 a {
+    float: none !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    width:50%;
+    border-left: 1px solid #fff !important;
+  }
+}
+
 /* ==========================================================================
    11. Media Queries - Smaller than 500px
    ========================================================================== */

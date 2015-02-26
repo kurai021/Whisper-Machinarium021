@@ -67,6 +67,3 @@ Copy your favicon with name "favicon.png" on assets folder
 Login on Disqus and change "var disqus_shortname = 'mightymaze'" on post.hbs with your Disqus shortname
 ###¿How to setup Google Analytics?
 Change 'UA-48146313-1' on default.hbs with your Site ID
-
-###Demo
-[Link](http://blog-machinarium021.rhcloud.com)
