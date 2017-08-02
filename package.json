@@ -1,6 +1,12 @@
 {
+<<<<<<< HEAD
+  "name": "Whisper-Machinarium021",
+  "version": "0.0.2",
+  "author": "Richard Armuelles",
+=======
   "name": "Whisper",
   "version": "1.0.0",
   "author": "Mazhar Ahmed",
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
   "description": "A modified ghost theme"
 }

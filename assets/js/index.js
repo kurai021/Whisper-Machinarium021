@@ -53,7 +53,14 @@
           timeout = setTimeout(delayed, threshold || 100);
       };
   }
+<<<<<<< HEAD
+  // smartresize
+  jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
+
+})(jQuery,'smartresize');
+=======
   // smartresize 
   jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
 
 })(jQuery,'smartresize');
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6

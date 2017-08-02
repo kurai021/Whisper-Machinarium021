@@ -273,7 +273,11 @@ hr {
     width: 80%;
     border: 0;
     border-top: 1px solid #2B4E84;
+<<<<<<< HEAD
+    margin: 0.5em 0;
+=======
     margin: 1em 0;
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     padding: 0;
     margin-right: auto;
     margin-left: auto;
@@ -443,7 +447,11 @@ margin on the iframe, cause it breaks stuff. */
     max-width: 600px;
     margin: 0 auto;
     background-color: rgba(255,255,255,0.7);
+<<<<<<< HEAD
+    padding-top: 90px;
+=======
     padding-top: 60px;
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     padding-bottom: 60px;
 }
 
@@ -470,10 +478,46 @@ margin on the iframe, cause it breaks stuff. */
     background: #97d7ff no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+<<<<<<< HEAD
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.duckduckgo {
+  width: 100%;
+  background-color: rgba(255,255,255,0.9);
+  position: fixed;
+  margin: 0;
+  z-index: 9999;
+}
+
+.duckduckgo-search {
+  width:50%;
+  display: block;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top:8px;
+  margin-bottom:6px;
+  overflow:hidden;
+  padding:0;
+  height:40px;
+}
+
+.duckduckgo-search input[type="text"] {
+  background: #fff url("../images/search.png") no-repeat right 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+}
+
+=======
     padding-top: 70px;
     padding-bottom: 30px;
 }
 
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
 .blog-logo {
     text-decoration: none;
 }
@@ -484,12 +528,20 @@ margin on the iframe, cause it breaks stuff. */
     max-height: 150px;
     width: 150px;
     height: 150px;
+<<<<<<< HEAD
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+=======
     border-radius: 75px;
     -webkit-border-radius: 75px;
     -moz-border-radius: 75px;
     -ms-border-radius: 75px;
     -o-border-radius: 75px;
     border: 5px solid white;
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     margin: 0 auto;
     line-height: 0;
 }
@@ -549,6 +601,10 @@ margin on the iframe, cause it breaks stuff. */
 .post-title {
     margin:0;
     color: #222;
+<<<<<<< HEAD
+    text-align: center;
+=======
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
 }
 
 .post-title a {
@@ -586,7 +642,11 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .post-meta a {
+<<<<<<< HEAD
+    color: #002154;
+=======
     color: #6ec6fc;
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     text-decoration: none;
 }
 
@@ -1059,7 +1119,11 @@ margin on the iframe, cause it breaks stuff. */
         box-sizing: border-box;
         height: auto;
         min-height: 240px;
+<<<<<<< HEAD
+        padding: 0 0;
+=======
         padding: 15% 0;
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     }
 
     .blog-title {
@@ -1104,6 +1168,13 @@ margin on the iframe, cause it breaks stuff. */
 
 }
 
+<<<<<<< HEAD
+/* ==========================================================================
+   10.1 Related Post
+   ========================================================================== */
+
+   .related-posts li a {font-weight: 500;}
+=======
 
 /* ==========================================================================
 * Linkwithin
@@ -1141,6 +1212,7 @@ margin on the iframe, cause it breaks stuff. */
     border-left: 1px solid #fff !important;
   }
 }
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
 
 /* ==========================================================================
    11. Media Queries - Smaller than 500px
@@ -1285,6 +1357,13 @@ margin on the iframe, cause it breaks stuff. */
 	width: 100%;
     }
 
+<<<<<<< HEAD
+    .duckduckgo-search {
+      width:90%;
+    }
+
+=======
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
 }
 
 /* ==========================================================================
@@ -1321,8 +1400,13 @@ ul.social li:last-child {
     width: 64px;
     height: 64px;
     position: fixed;
+<<<<<<< HEAD
+    bottom: 2em !important;
+    right: 10px !important;
+=======
     bottom: 2em;
     right: 0px;
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     text-decoration: none;
     color: #000000;
     font-size: 12px;

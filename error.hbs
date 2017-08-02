@@ -2,8 +2,19 @@
 
 {{! This is a page template. A page outputs content just like any other post, and has all the same
     attributes by default, but you can also customise it to behave differently if you prefer. }}
+<<<<<<< HEAD
+
+<header class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+  <div class="duckduckgo">
+    <form class="duckduckgo-search" action="https://duckduckgo.com" target="_blank" method="get">
+      <input type="hidden" name="sites" value="http://machinarium021.com">
+      <input type="text" name="q" value="" placeholder="Buscar...">
+    </form>
+  </div>
+=======
     
 <header class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     <div class="vertical">
         <div class="site-head-content inner">
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
@@ -20,9 +31,15 @@
             </ul>
             <hr>
             <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+<<<<<<< HEAD
+		<a class="back-button icon-arrow-left" href="{{@blog.url}}">Inicio</a>
+		<span class="menu-separator">|</span>
+		<a class="back-button icon-arrow-left" href="{{@blog.url}}/about">Sobre</a>
+=======
 		<a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
 		<span class="menu-separator">|</span>
 		<a class="back-button icon-arrow-left" href="{{@blog.url}}/about">About</a>
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
 	    </nav>
 	    <hr>
         </div>
@@ -33,4 +50,8 @@
     <h1>Oops! ERROR: {{code}}</h1>
     <img src="{{asset "images/404.jpg"}}" width="50%" />
     <p>{{message}}</p>
+<<<<<<< HEAD
 </section>
+=======
+</section>
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6

@@ -5,6 +5,15 @@
 
 {{! The big featured header on the homepage, with the site logo and description }}
 <header class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+<<<<<<< HEAD
+  <div class="duckduckgo">
+    <form class="duckduckgo-search" action="https://duckduckgo.com" target="_blank" method="get">
+      <input type="hidden" name="sites" value="http://machinarium021.com">
+      <input type="text" name="q" value="" placeholder="Buscar...">
+    </form>
+  </div>
+=======
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
     <div class="vertical">
         <div class="site-head-content inner">
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
@@ -13,6 +22,19 @@
             <!-- for special purpose I've omited the default blog desc -->
             <!--<h2 class="blog-description">I'm Director of Engineering at <a href="http://www.stsbd.com">ST Solutions LLC</a></h2> -->
             <ul class="social">
+<<<<<<< HEAD
+		            <li><a href="https://www.facebook.com/richard.armuelles" target="_blank"><img src="{{asset "images/facebook.png"}}" width="48" /></a></li>
+                <li><a href="https://github.com/kurai021" target="_blank"><img src="{{asset "images/github.png"}}" width="48" /></a></li>
+                <li><a href="https://www.linkedin.com/in/richard-alexander-armuelles-zeballos-2277b63b/" target="_blank"><img src="{{asset "images/linkedin.png"}}" width="48" /></a></li>
+                <li><a href="https://twitter.com/raaztux" target="_blank"><img src="{{asset "images/twitter.png"}}" width="48" /></a></li>
+                <li><a href="https://www.reddit.com/user/machinarium021/" target="_blank"><img src="{{asset "images/reddit.png"}}" width="48" /></a></li>
+            </ul>
+            <hr>
+            <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+		<a class="back-button icon-arrow-left" href="{{@blog.url}}">Inicio</a>
+		<span class="menu-separator">|</span>
+		<a class="back-button icon-arrow-left" href="{{@blog.url}}/about">Sobre</a>
+=======
 		<li><a href="https://www.facebook.com/richard.armuelles" target="_blank"><img src="{{asset "images/facebook.png"}}" width="48" /></a></li>
                 <li><a href="https://twitter.com/raaztux" target="_blank"><img src="{{asset "images/twitter.png"}}" width="48" /></a></li>
                 <li><a href="https://plus.google.com/u/0/117702515713402194890" target="_blank"><img src="{{asset "images/google.png"}}" width="48" /></a></li>
@@ -24,6 +46,7 @@
 		<a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
 		<span class="menu-separator">|</span>
 		<a class="back-button icon-arrow-left" href="{{@blog.url}}/about">About</a>
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
 	    </nav>
 	    <hr>
         </div>
@@ -55,4 +78,8 @@
     {{!! After all the posts, we have the previous/next pagination links }}
     {{pagination}}
 
+<<<<<<< HEAD
 </main>
+=======
+</main>
+>>>>>>> c88add6b9536d2ef29914289fa6dada8b12fc1f6
