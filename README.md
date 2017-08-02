@@ -1,10 +1,10 @@
-##Whisper Machinarium021
+## Whisper Machinarium021
 
 A Ghost Theme based of the default ghost theme named Casper and Whisper.
 
 This theme is under Apache License 2.0.
 
-###Features
+### Features
 - Compatiblity with Ghost 0.5.3
 - Header and Footer background is configured with Blog Cover option
 - Completely responsive design
@@ -20,10 +20,12 @@ This theme is under Apache License 2.0.
 - 404 Error custom page
 - Completely minificated (on progress)
 
-###¿How tu setup your About page?
+### ¿How tu setup your About page?
 The about page url is "url"/about/, you only need to create a static page and configure the Post URL to about.
-###Social buttons and share buttons
-####On header buttons:
+
+### Social buttons and share buttons
+
+#### On header buttons:
 - Find default.hbs
 - Change this section with your social accounts links and buttons
 
@@ -35,7 +37,8 @@ The about page url is "url"/about/, you only need to create a static page and co
         <li><a href="https://github.com/kurai021" target="_blank"><img src="{{asset "images/github.png"}}" width="48" /></a></li>
 </ul>```
 
-####On share buttons
+#### On share buttons
+
 - Find post.hbs
 - Change this section with your favourite buttons, don't forget to use target="_blank" on "a" tag
 
@@ -52,18 +55,24 @@ The about page url is "url"/about/, you only need to create a static page and co
      </a>
  </section>```
 
-###Code Highligting
+### Code Highligting
+
 You need to use the ```<pre>code</pre>``` method as explained on (some scripts for highlighting on specific languages already included on default.hbs) [http://alexgorbatchev.com/SyntaxHighlighter/manual/installation.html](http://alexgorbatchev.com/SyntaxHighlighter/manual/installation.html) for details
 
-###¿Do you want to disable infinite scroll?
+### ¿Do you want to disable infinite scroll?
+
 You only need to comment this section on default.hbs:
 
 ```<script type="text/javascript" src="{{asset "assets/jscroll/jquery.jscroll.js"}}"></script>
    <script type="text/javascript" src="{{asset "assets/jscroll/scroll-post.js"}}"></script>```
 
-###¿How to setup your favicon?
+### ¿How to setup your favicon?
+
 Copy your favicon with name "favicon.png" on assets folder
-###¿How to setup Disqus?
+### ¿How to setup Disqus?
+
 Login on Disqus and change "var disqus_shortname = 'mightymaze'" on post.hbs with your Disqus shortname
-###¿How to setup Google Analytics?
+
+### ¿How to setup Google Analytics?
+
 Change 'UA-48146313-1' on default.hbs with your Site ID
